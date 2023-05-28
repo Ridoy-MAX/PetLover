@@ -356,16 +356,17 @@ menu css END
 }
 .section_one .right_side .seal_batch {
 	position: relative;
-	right: -285px;
-	top: -156px;
-	z-index: 9;
+	right: -298px;
+	top: -257px;
+	z-index: 09;
 }
 .section_one .right_side .pets_img img {
-	height: 333px;
+	height: 534px;
 	position: absolute;
-	top: 51px;
-	left: -61px;
+	top: -97px;
+	left: 4px;
 	z-index: 3;
+	width: 400px;
 }
 .section_one .left_side {
 
@@ -536,10 +537,14 @@ margin-top: 70px;
   top: -50px;
 }
 .section_three .banner .img img {
-	height: 448px;
-	margin-left: 45px;
+	height: 413px;
+	margin-left: -43px;
+	/* width: 500px; */
+	/* width: 100%; */
+	/* padding: revert; */
+	position: relative;
+	top: 55px;
 	width: 500px;
-	width: 100%;
 }
 
 
@@ -559,7 +564,7 @@ margin-top: 70px;
 }
 .section_three .banner .pets_icon2 {
 	position: relative;
-	bottom: 123px;
+	bottom: 91px;
 	left: 375px;
 }
 .section_three .details .one h1{
@@ -592,14 +597,15 @@ margin-top: 70px;
 	padding-right: 173px;
 }
 .section_three .details .two .dot{
+  display: flex;
   margin-bottom: 30px;
 }
 .section_three .details .two a {
   color: rgb(161, 156, 156) !important;
   margin-right: 30px;
-  margin-bottom: 30px;
-  font-family: 'Nunito', sans-serif;
 
+  font-family: 'Nunito', sans-serif;
+  width: 150px !important;
 }
 .section_three .details .two a i{
   font-size: 9px;
@@ -688,8 +694,9 @@ align-items: center;
   text-align: center;
 }
 
-.section_foure  .slider_pet  .box .img img{
-  width: 150px;
+.section_foure .slider_pet .box .img img {
+	width: 133px;
+	height: 169px;
 }
 .section_foure .slider_pet .box .img {
 	background-color: var(--brand);
@@ -776,7 +783,7 @@ font-family: 'Nunito', sans-serif;
 	width: 50px;
 	height: 50px;
 	/* border-radius: 100%; */
-	right: 598px;
+	right: 628px;
 	z-index: 1111111;
 	color: #ffffff;
 	font-size: 30px;
@@ -789,9 +796,11 @@ font-family: 'Nunito', sans-serif;
 }
 .section_six .image_slider .slick-center img {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: relative;
-  top: -50px;
-  transition: 0.4s;
+	position: relative;
+	top: -50px;
+	transition: 0.4s;
+	width: 530px !important;
+	left: -49px;
 }
 .section_six .image_slider .box{
   margin-top: 60px;
@@ -800,9 +809,9 @@ height: 397px;
 
 
 }
-.section_six .image_slider .box img{
-  width: 557px;
-height: 397px;
+.section_six .image_slider .box img {
+	width: 483px;
+	height: 397px;
 }
 /* ================ section_seven========*/
 

@@ -167,11 +167,15 @@ $(document).ready(function(){
          $('.image_slider').slick({
           autoplay: false,
           autoplaySpeed: 1800, 
-          dots: false,
+          speed: 800,
+         
+          cssEase: 'linear',
+   
           slidesToShow: 3,
           slidesToScroll: 1,
           centerMode:true,
-         centerPadding:'0px',
+          centerPadding: '60px',
+          dots: false,
           arrows:true,
           prevArrow:'<i class="fas fa-chevron-right  previous-arrow"></i>',
           nextArrow:'<i class="fas fa-chevron-left  next-arrow"></i>',
